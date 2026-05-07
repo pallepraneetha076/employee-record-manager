@@ -17,3 +17,9 @@ A Flask-based web application for managing employee records using Git and GitHub
 - JavaScript
 - SQLite
 - Git & GitHub
+
+## Team Members
+
+- Palle Praneetha
+- Gajulapalli Sabiha
+- Monika J
