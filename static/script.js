@@ -1,0 +1,1 @@
+console.log("Employee Record Manager Loaded");
