@@ -11,7 +11,18 @@
 
     <h1>Employee Record Manager</h1>
 
-    <p>Welcome to Employee Record Manager Project</p>
+    <form>
+        <label>Employee ID:</label><br>
+        <input type="text" placeholder="Enter Employee ID"><br><br>
+
+        <label>Employee Name:</label><br>
+        <input type="text" placeholder="Enter Employee Name"><br><br>
+
+        <label>Department:</label><br>
+        <input type="text" placeholder="Enter Department"><br><br>
+
+        <button type="submit">Add Employee</button>
+    </form>
 
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 
