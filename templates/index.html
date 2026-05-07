@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Record Manager</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
 <body>
 
     <div class="container">
@@ -5,6 +15,7 @@
         <h1>Employee Record Manager</h1>
 
         <form>
+
             <label>Employee ID:</label><br>
             <input type="text" placeholder="Enter Employee ID"><br>
 
@@ -14,7 +25,11 @@
             <label>Department:</label><br>
             <input type="text" placeholder="Enter Department"><br>
 
+            <label>Search Employee:</label><br>
+            <input type="text" placeholder="Search Employee"><br>
+
             <button type="submit">Add Employee</button>
+
         </form>
 
     </div>
@@ -22,3 +37,4 @@
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 
 </body>
+</html>
