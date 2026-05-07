@@ -24,4 +24,5 @@ A Flask-based web application for managing employee records using Git and GitHub
 - Gajulapalli Sabiha
 - Monika J
 
-# Project branch maintained for feature development.
+1. Project branch maintained for feature development.
+2. Project branch maintained for search 
